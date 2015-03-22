@@ -1,0 +1,42 @@
+The set of original variables were estimated from signals collected using smart phones during different levels of activities.
+They are all normalised to [-1,1] - unitless and are listed as follows:
+- mean(): mean value
+- std(): standard deviation
+- mad(): median absolute deviation
+- max(): maximum value
+- min(): minimum value
+- sma(): signal magnitude area
+- energy(): energy measure (sum of the squares divided by the no. of values)
+- iqr(): interquartile range
+- entropy(): signal entropy
+- arCoeff(): autoregression coefficients with Burg order equal to 4
+- correlation(): correlation coefficient between two signals
+- maxInds(): index of the frequency component with largest magnitude
+- meanFreq(): weighted average of the frequency components to obtain a mean frequency
+- skewness(): skewness of the frequency domain signal
+- kurtosis(): kurtosis of the frequency domain signal
+- bandsEnergy(): energy of a frequency interval within the 64 bins of the Fast Fourier Transform of each window
+- angle(): angle between some vectors
+
+
+Creating tidy dataset (clean.txt):
+1. 181 rows/obs
+2. 81 columns/features
+
+The features consist of the following:
+1. subject column (Subject) identifies who conducted the experiment: e.g. 1 - 30
+2. activity column (Activity) separates different levels of activities: e.g. WALKING, SITTING, STANDING, LAYING
+3. 79-feature vector with time and frequency domain signal variables: e.g. Body Acceleration, Time.BodyAcceleration.XYZ, Frequency.BodyAcceleration.XYZ
+
+
+ 
+
+
+
+
+ 
+
+
+
+ 
+
